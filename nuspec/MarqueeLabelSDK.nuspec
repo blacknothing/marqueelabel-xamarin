@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>MarqueeLabel.Xamarin.iOS</id>
+    <version>$version$</version>
+    <title>MarqueeLabel.Xamarin.iOS</title>
+    <authors>blacknothing</authors>
+    <licenseUrl>https://github.com/blacknothing/marqueelabel-xamarin/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/blacknothing/marqueelabel-xamarin</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>A drop-in replacement for UILabel, which automatically adds a scrolling marquee effect when the label's text will not fit inside the specified frame.</description>    
+    <tags>xamarin, ios, marqueelabel, marquee</tags>
+  </metadata>
+  <files>
+    <file src="MarqueeLabelSDK/bin/Release/MarqueeLabelSDK.dll" target="lib/Xamarin.iOS10/MarqueeLabel.Xamarin.iOS.dll" />
+  </files>
+</package>
